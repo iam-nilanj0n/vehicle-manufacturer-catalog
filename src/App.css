@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App{
+  width: 100;
+  overflow-x: hidden;
+}
+header h1{
+  text-align: center;
+  margin: 4vh 0;
+}
+
+.searchSection{
+  display: flex;
+  flex-direction: row;
+}
+label{
+  font-weight: bolder;
+  margin-left: 5vw;
+  margin-right: 1vw;
+}
+input{
+  padding: 10px;
+}
+
+.filterVehicle{
+  margin-left: 45vw;
+}
+
+.columnNames{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(17, 14, 91);
+  margin: 3vh 0 0 0;
+}
+.columnNames p{
+  width: 33.33vw;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+/* BMW is here */
+.BMW_Details div{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.BMW_Details div p{
+  width: 33.33vw;
+  border: 1px solid grey;
+  padding: 10px 0;
+  text-align: center;
+}
+/* Ford is here */
+.ford_Details div{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.ford_Details div p{
+  width: 33.33vw;
+  border: 1px solid grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* tesla si here */
+.tesla_Details div{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.tesla_Details div p{
+  width: 33.33vw;
+  border: 1px solid grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* honda is here */
+
+.honda_Details div{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.honda_Details div p{
+  width: 33.33vw;
+  border: 1px solid grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* bugatti is here */
+
+.bugatti_Details div{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.bugatti_Details div p{
+  width: 33.33vw;
+  border: 1px solid grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* maserati is here */
+.maserati_Details div{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.maserati_Details div p{
+  width: 33.33vw;
+  border: 1px solid grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* buel is here */
+
+.buel_Details div{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.buel_Details div p{
+  width: 33.33vw;
+  border: 1px solid grey;
+  padding: 10px 0;
+  text-align: center;
+}
